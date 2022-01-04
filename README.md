@@ -1,6 +1,8 @@
-# MMV
+# HeightMaps, Erosion and Roads
 
-This project was made for the Virtual World Modeling course dispensed by Eric Galin during my second year of Master at Université Lyon 1.
+This project was made for the Virtual World Modeling course dispensed by Eric Galin during my second year of Master at UniversitÃ© Lyon 1.
+
+![Pres terrain](https://user-images.githubusercontent.com/50468590/148096732-1aa787f8-87f5-4ad0-936e-fe45f8453ffe.png)
 
 ### How to Compile
 
@@ -29,11 +31,31 @@ While the program is running, you can press y to search for a path between two r
 ### What i did
 
 * Generate a terrain based on a Heightmap.
+
+![terrain generation](https://user-images.githubusercontent.com/50468590/148097611-f7709717-2479-466c-a37b-d071fc02089e.png)
+
+![terrain base](https://user-images.githubusercontent.com/50468590/148097667-4aef8f27-fc91-4afb-947b-0119b190c21e.png)
+
 * Implemented stream power erosion.
+
+![terrain stream](https://user-images.githubusercontent.com/50468590/148096891-bdcf2a5f-2e22-42c0-85fe-54e9f94fff57.png)
 * Implemented hillslope erosion.
+
+![Terrain hillslope](https://user-images.githubusercontent.com/50468590/148097712-bbdce838-ac02-42b2-afd1-ac769a25c821.png)
+
 * Implemented debris erosion.
+
+![terrain debris](https://user-images.githubusercontent.com/50468590/148097722-e39d7985-3e2c-4dca-a367-f679e56924f9.png)
+
 * Implemented Dijkstra's algorithm.
 * Implemented a parametrable road generation cost function based on distance between points and slope limitation.
+  * Minizing distance:
+  
+![Route distance](https://user-images.githubusercontent.com/50468590/148096997-8f211dd0-9cf0-4ac3-9791-787f70a761de.png)
+  * Minimizing distance while avoiding steep slopes:
+
+![Route pente](https://user-images.githubusercontent.com/50468590/148097739-a67ea824-a61a-48f2-8cc5-ca4f9d79dac6.png)
+
 
 ### TODO:
 
