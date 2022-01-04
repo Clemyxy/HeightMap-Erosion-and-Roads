@@ -34,3 +34,8 @@ While the program is running, you can press y to search for a path between two r
 * Implemented debris erosion.
 * Implemented Dijkstra's algorithm.
 * Implemented a parametrable road generation cost function based on distance between points and slope limitation.
+
+### TODO:
+
+* Make the program more user friendly (Rework road functions and maybe use imgui to create a graphical interface).
+* Review code and clean up/optimize if necessary.
